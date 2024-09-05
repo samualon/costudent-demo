@@ -14,8 +14,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="/costudent-demo/assets/index-MKnXY27H.js"></script>
-    <link rel="stylesheet" crossorigin href="/costudent-demo/assets/index-CbMvXKPk.css">
+    <script type="module" crossorigin src="/costudent-demo/assets/index-CP8Q4RDp.js"></script>
+    <link rel="stylesheet" crossorigin href="/costudent-demo/assets/index-BsedRDAr.css">
   </head>
   <body>
     <div id="app"></div>
@@ -85,8 +85,8 @@
     box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.5);
     cursor: pointer;
   }
-  
-  .button_white {
+
+   .button_white {
     color: black;
     background-color: var(--complement-light);
     box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.5);
@@ -98,10 +98,29 @@
     font-weight: 600;
     border-radius: 40px;
     border: 0;
-    cursor:pointer;
+    cursor: pointer;
   }
 
   .button_white:hover {
+    transition: background-color 0.3s;
+    background-color: var(--complement);
+  } 
+
+  .fake_button_white {
+    color: black;
+    background-color: var(--complement-light);
+    box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.5);
+    padding: 0.5lh; 
+    padding-left: 2em;
+    padding-right: 2em;
+    font-family: Poppins;
+    font-size: 12pt;
+    font-weight: 600;
+    border-radius: 40px;
+    border: 0;
+  }
+
+  .fake_button_white:hover {
     transition: background-color 0.3s;
     background-color: var(--complement);
   }
@@ -122,8 +141,13 @@
     width: 80%;
 
     margin: 1em;
+    box-shadow: 5px 5px 5px 2px rgba(0,0,0,0.3);
   }
   
+  select {
+    box-shadow: 5px 5px 5px 2px rgba(0,0,0,0.3);
+  }
+
   ::placeholder {
       color: var(--complement);
   }
